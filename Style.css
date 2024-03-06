@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: rgb(235, 163, 30);
+}
+
+
+#image_logo_div{
+    background-color:yellow;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    height: 25vh;
+    width: 208vh;
+}
+
+#kanpur_logo{
+    background-color: yellow;
+    width: 20%;
+    height: 37vh;
+    margin: 0px;
+    padding: 0px;
+    position:absolute;
+    top: -10vh;
+}
+
+
+
+
+
+/* 
+#Form_heading{
+    background-color: orange;
+    text-align: center;
+    font-size: 5vh;
+    width:211vh;
+} */
+
+/* 
+#below_body_container{
+    display:flex;
+} */
+
+/* #mid_form_div{
+    background-color: #ffa500;
+    float: left;
+} */
+
+
+
+
+
+
+
+
+#Left_img img{
+    margin-left: 5vh;
+    margin-top: 20vh;
+    float: left;
+    width: 35vh;
+}
+
+
+
+#Right_img img{
+    margin-top: 20vh;
+    width: 35vh;
+}
+
+
+
+#footer{
+    background-color: orange;
+    width: auto;
+}
+
+
+
+.icon_style{
+    width: 50%;
+}
+
+.btn{
+    width: 10%;
+    font-size: 3vh;
+    margin-top: 1vh;
+    margin-left: 20vh;
+    border-radius: 2rem;
+    font-weight: bolder;
+}
+
+.Ctrl_pannel{
+    margin-top: 5vh;
+    margin-bottom: 50px;
+    background-color:  rgb(172, 58, 17);
+    height: 8vh;
+}
+
+
+.submit{
+    margin-left: 30vh;
+
+}
+
+.site_heading{
+    font-size: 5vh;
+}
+
+.footer_body{
+    padding-bottom: 5vh;
+}
+
+
+
+table{
+    border: red 2px solid;
+}
+
+table, tr, td{
+    border: 1px solid;
+    padding: 1% 1% 1% 1%;
+    margin: 2%;
+    font-size: 20px;
+    width:max-content;
+  }
+
+  table{
+    padding: 5px;
+    background-color: orange;
+    margin-top: 2%;
+    border: darkblue 2px solid ;
+  }
+
+  table th {
+    border: 1px solid;
+    font-size: 25px;
+    align-self: center;
+    width: fit-content;
+  }
+
+
+
+/* .notice_board{
+    border: orangered 2px solid;
+    width: 100%;
+    margin-left: 4%;
+} */
