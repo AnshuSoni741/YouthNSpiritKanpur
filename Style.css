@@ -16,7 +16,7 @@
   /* justify-content: right; */
   /* align-items: right; */
   background-color: rgb(250, 217, 155);
-  padding: 0.5% 0% 0.5% 75%;
+  padding: 0.5% 0% 0.5% 21%;
   /* width: 100%; */
   /* margin-left:60%; */
 }
@@ -264,13 +264,13 @@ table, tr, td{
       }
 
       .upper_body{
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        row-gap: 0px;
-        z-index: index inherit;
-        width: 100%;
+        /* row-gap: 0px; */
+        /* z-index: index inherit; */
+        /* width: 100%; */
       }
 
       .mytable{
