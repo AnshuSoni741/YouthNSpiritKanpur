@@ -156,7 +156,7 @@ table, tr, td{
 
   table{
     padding: 5px;
-    background-color: orange;
+    background-color: rgb(255, 145, 1);
     margin-top: 2%;
     border: darkblue 2px solid ;
     overflow-y: scroll;
@@ -209,7 +209,7 @@ table, tr, td{
       }
       footer {
         width: 100%;
-        background-color: rgb(250, 182, 48);
+        background-color: rgb(255, 94, 0);
         color: white;
         padding: 20px;
         text-align: center;
