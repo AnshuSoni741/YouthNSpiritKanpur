@@ -4,89 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
+    /> -->
     <link rel="stylesheet" href="Style.css" />
 
-    <style>
-      #heads {
-        width: 102%;
-      }
-      .parent_page {
-        margin-left: 0%;
-      }
-      footer {
-        width: 100%;
-        background-color: rgb(236, 109, 4);
-        color: white;
-        padding: 20px;
-        text-align: center;
-      }
-
-      footer img {
-        width: 40px;
-        height: 40px;
-      }
-
-      .social-icons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .social-icons a {
-        margin: 20px 30px;
-      }
-
-      .social-icons img {
-        width: 40px;
-        height: 40px;
-      }
-
-      @media screen and (max-width: 500px) {
-        .social-icons {
-          flex-direction: column;
-        }
-        .footer {
-          width: 200%;
-        }
-      }
-    </style>
+    <style></style>
   </head>
 
   <body>
-    <!-- header area -->
-    <header>
-      <img
-        src="Assets\Images\headingimage.png"
-        class="img-fluid"
-        alt="..."
-        id="heads"
-      />
-    </header>
+    <div class="upper_body">
+      <!-- header area -->
+      <header>
+        <div class="top_div">
+          <button class="btn language_btn">Hindi</button>
+          <!-- <button class="btn zoom" style="font-size: 20px; font-weight: 700"> -->
+          <!-- + -->
+          <!-- </button> -->
+        </div>
 
-    <!-- main area -->
+        <a href="">
+          <img
+            src="Assets\Images\headingimage.png"
+            class="img-fluid"
+            alt="..."
+            id="heads"
+          />
+        </a>
+      </header>
 
-    <main>
-      <center>
-        <h2 id="Form_heading">* Upcoming Event Of Youth N Spirit Kanpur *</h2>
-      </center>
+      <!-- main area -->
 
-      <div class="table-responsive">
-        <table class="table align-middle">
-          <thead>
-            <tr>
-              <th>Event Name</th>
-              <th>Date and Time</th>
-              <th>Reporting Time</th>
-              <th>Venue</th>
-              <th>Application link & Organisers Contacts</th>
-            </tr>
-          </thead>
-          <tbody>
-            <!-- <tr>
+      <main>
+        <center>
+          <h2 id="Form_heading">
+            <span class="hindi hidden"
+              >** Youth N Spirit Kanpur के द्वारा आयोजित किये जाने वाले
+              कार्यक्रमों की सूची **</span
+            >
+            <span class="english"
+              >* Upcoming Event Of Youth N Spirit Kanpur*</span
+            >
+          </h2>
+        </center>
+
+        <div class="table-responsive mytable">
+          <table class="table align-middle">
+            <thead>
+              <tr>
+                <th>
+                  <span class="hindi hidden">कार्यक्रम</span>
+                  <span class="english">Event Name</span>
+                </th>
+                <th>
+                  <span class="hindi hidden">दिंनाक और समय</span>
+                  <span class="english">Date and Time</span>
+                </th>
+                <th>
+                  <span class="hindi hidden">पहुचने का समय</span>
+                  <span class="english">Reporting Time</span>
+                </th>
+                <th>
+                  <span class="hindi hidden">स्थान</span>
+                  <span class="english">Venue</span>
+                </th>
+                <th>
+                  <span class="hindi hidden">आवेदन का लिंक और कार्यवाहक</span>
+                  <span class="english"
+                    >Application link & Organisers Contacts</span
+                  >
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
               <td>Quiz Compitition</td>
               <td>31/03/2024 From 09:00 AM TO 10:00 AM</td>
               <td>31/03/2024 ,08:30AM</td>
@@ -105,38 +97,64 @@
                 8318464483, 9452265250
               </td>
             </tr> -->
-            <tr class="align-bottom">
-              <td>Quiz Compitition</td>
-              <td>31/03/2024<br />09:00 AM TO 10:00 AM</td>
-              <td>
-                31/03/2024 <br />
-                ,08:30AM
-              </td>
-              <td>
-                HANS MANDIR<br />NEW AZAD NAGAR<br />PAC MODE BYPASS<br />NEAR
-                PETROL PUMP<br />KANPUR-208011
-              </td>
-              <td>
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSf1sp63b8qrwm3lSi-9t7RYLz4nBlfclBvOXNMmqQ8O8CcXVA/viewform?usp=sf_link"
-                  target="_blank"
-                  >Click here to register</a
-                ><br /><br />
-                Contact for any query/technical issues<br />
-                regarding quize <br /><br />
-                8318464483, 9452265250
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+              <tr class="align-bottom">
+                <td>
+                  <span class="hindi hidden">प्रश्नोतरी प्रतियोगिता </span>
+                  <span class="english"> Quiz Compitition</span>
+                </td>
+                <td>
+                  31/03/2024<br />
+                  <span class="hindi hidden">सुबह 09:00 से 10:00 तक</span>
+                  <span class="english"> 09:00 AM TO 10:00 AM </span>
+                </td>
+                <td>
+                  31/03/2024 <br />
+                  ,08:30AM
+                </td>
+                <td>
+                  <span class="hindi hidden">
+                    श्री हंस मंदिर<br />न्यू आजाद नगर <br />पी ए सी मोड़
+                    बाईपास<br />NEAR पेट्रोल पंप के पास <br />कानपूर उत्तर
+                    प्रदेश - 208011
+                  </span>
+                  <span class="english">
+                    HANS MANDIR<br />NEW AZAD NAGAR<br />PAC MODE BYPASS<br />NEAR
+                    PETROL PUMP<br />KANPUR, UTTAR PRADESH - 208011
+                  </span>
+                </td>
+                <td>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSf1sp63b8qrwm3lSi-9t7RYLz4nBlfclBvOXNMmqQ8O8CcXVA/viewform?usp=sf_link"
+                    target="_blank"
+                  >
+                    <span class="hindi hidden"
+                      >रजिस्ट्रेशन के लिए यहाँ क्लिक करे
+                    </span>
+                    <span class="english"> Click here to register </span> </a
+                  ><br /><br />
+                  <span class="hindi hidden">
+                    प्रश्नोतरी प्रतियोगिता से सम्बन्धित <br />
+                    किसी भी प्रकार की जानकारी के लिए नीचे दिए गए नंबर पर कॉल कर
+                    सकते है | <br /><br /><br />
+                    8318464483, 9452265250
+                  </span>
+                  <span class="english">
+                    Contact for any query/technical issues<br />
+                    regarding quize <br /><br />
+                    8318464483, 9452265250
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-      <!-- <div id="Left_img">
+        <!-- <div id="Left_img">
         <img src="Assets\Images\MNVDH_LOGO.jpg" alt="leftimg" />
       </div> -->
 
-      <!-- my table -->
-      <!-- <div class="notice_board">
+        <!-- my table -->
+        <!-- <div class="notice_board">
         <table class="tablee">
           <tr>
             <th>Event Name</th>
@@ -167,19 +185,28 @@
         </table>
       </div> -->
 
-      <!-- //right image -->
-      <!-- <div id="Right_img">
+        <!-- //right image -->
+        <!-- <div id="Right_img">
           <img src="Assets\Images\MNVDH_LOGO.jpg" alt="" />
         </div>
       </div>
     </div> -->
-    </main>
+      </main>
+    </div>
+    <hr />
 
     <!-- footer area -->
     <footer>
       <span class="parent_page">
         <h5>
-          This page is child of www.manavdharam.org , our Main website link is
+          <span class="hindi hidden"
+            >यह पेज हमारी प्रमुख वेब पेज www.manavdharam.org का छोटा सा पार्ट है
+            हमारी प्रमुख पेज का लिंक यहाँ है :
+          </span>
+          <span class="english"
+            >This is page is child page of www.manavdharam.org our parents link
+            is
+          </span>
           <span style="margin-left: 10px">
             <a href="https://www.manavdharam.org/" target="_blank">
               <img src="Assets\ICONS\manavdhram.png" alt="" />
@@ -188,10 +215,14 @@
         </h5>
         <br />
       </span>
-
       <h2>
-        Our Social media pages are below.<br />
-        Follow Us
+        <span class="hindi hidden"
+          >हमारे सोशल मीडिया पेज के लिंक यहाँ दिए गए है |<br />
+        </span>
+        <span class="english"
+          >Our Social media pages are below.<br />
+          Follow Us</span
+        >
       </h2>
       <div class="social-icons">
         <a
@@ -215,30 +246,7 @@
         </a>
       </div>
     </footer>
-    <script>
-      window.addEventListener("resize", function () {
-        var zoomLevel = window.devicePixelRatio;
-        var screenWidth = window.screen.width;
-        var mainImage = document.getElementById("heads");
-        var getvertical = document.getElementsByClassName("social-icons")[0];
 
-        if (screenWidth < 400 || zoomLevel > 3) {
-          mainImage.src = ".\\Assets\\Images\\Y_N_SPRIT_LOGO_KANPUR.jpg";
-          mainImage.style.width = "100%";
-          mainImage.style.height = "auto";
-          getvertical.style["flex-direction"] = "column";
-          console.log("screeen zoom in");
-        } else if (screenWidth > 500 || zoomLevel < 6) {
-          mainImage.src = ".\\Assets\\Images\\headingimage.png";
-          if (zoomLevel < 3) {
-            mainImage.style.width = "100%";
-            mainImage.style.height = "100%";
-          } else {
-            mainImage.style.height = "200px";
-            mainImage.style.width = "110%";
-          }
-        }
-      });
-    </script>
+    <script src="trial_app.js"></script>
   </body>
 </html>
